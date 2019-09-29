@@ -1,11 +1,13 @@
 # Knjižnica
-Knjižnica je preprost api za izposojo in vračanje knjig napisan v GoLang.
+Knjižnica je preprost api za izposojo in vračanje knjig napisan v GoLang jeziku.
+- database.go je datoteka, ki vsebuje metode za poizvedbe v bazi
+- endpoints.go je impementacija REST endpointov
 # Zahteve 
 - PostgreSQL 10
 - GoLang 1.10
 # Knjižnice
 - database/sql
-- github.com/gorilla/mux"
+- github.com/gorilla/mux
 # Priprava
 - Najprej namestimo PostgreSQL 
 - Ustvarimo Uporabnika viberate z geslom viberate
